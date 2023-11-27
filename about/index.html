@@ -11,6 +11,11 @@
   
   <title>
     
+      标签 
+      
+      
+      |
+    
      AdaChenScience
   </title>
 
@@ -102,56 +107,87 @@
 
 
       <div class="flex-container">
-        <div class="container index">
-  <div class="post-list">
-    <!-- 遍历渲染文章 -->
-    
-      <div class="post-item" title="Javascript入门">
-        <div class="time-m-d">2023-11-27</div>
-        <div class="title">
-          <a href="/2023/11/27/Javascript%E5%85%A5%E9%97%A8/">
-            
-              
-                <span>Javascript入门</span>
-              
-            
-          </a>
-        </div>
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
+
+
+  <!-- LaTex Display -->
+
+  
+    <script async type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    }
+  </script>
+
+
+
+
+
+  <!-- clipboard -->
+
+  
+    <script async type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
+  
+  
+<script src="/js/codeCopy.js"></script>
+
+
+
+
+
+
+
+  
+
+  
+
+  
+  <!-- 关于页 url形式：https://yoursite/about/ -->
+    <div class="container about-index">
+      <div class="markdown-body">
+        <h2 id="教育背景-2020-09-至今"><a href="#教育背景-2020-09-至今" class="headerlink" title="教育背景 2020&#x2F;09-至今"></a>教育背景 2020&#x2F;09-至今</h2><ul>
+<li>ECNU <a target="_blank" rel="noopener" href="https://math.ecnu.edu.cn/">Mathematics</a>(major)</li>
+<li>SJTU <a target="_blank" rel="noopener" href="https://www.acem.sjtu.edu.cn/">Finance</a>(minor)</li>
+</ul>
+<h2 id="社交媒体"><a href="#社交媒体" class="headerlink" title="社交媒体"></a>社交媒体</h2><ul>
+<li>B站：<a target="_blank" rel="noopener" href="https://space.bilibili.com/2006461061?spm_id_from=333.1007.0.0">小橙吃烧饼</a>  </li>
+<li>小红书：<a target="_blank" rel="noopener" href="https://www.xiaohongshu.com/user/profile/627874cd0000000021028b30">笨蛋小天才</a></li>
+<li>邮箱： <a href="mailto:&#x63;&#104;&#101;&#110;&#103;&#99;&#x68;&#101;&#110;&#x63;&#x68;&#x65;&#110;&#x39;&#x36;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#x63;&#104;&#101;&#110;&#103;&#99;&#x68;&#101;&#110;&#x63;&#x68;&#x65;&#110;&#x39;&#x36;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></li>
+</ul>
+<h2 id="我在做什么-2023-09-至今"><a href="#我在做什么-2023-09-至今" class="headerlink" title="我在做什么 2023&#x2F;09-至今"></a>我在做什么 2023&#x2F;09-至今</h2><h3 id="修读课程-2023-09-2024-01"><a href="#修读课程-2023-09-2024-01" class="headerlink" title="修读课程 2023&#x2F;09-2024&#x2F;01"></a>修读课程 2023&#x2F;09-2024&#x2F;01</h3><ul>
+<li>计算机： 程序设计与C语言 | 数据结构 | 操作系统 | 计算机网络</li>
+<li>数学：   线性代数 | 高等代数 | 近世代数 | 微分几何</li>
+<li>金融：   微观经济学</li>
+<li>数据科学：数据思维与实践 | 编程思维与实践</li>
+</ul>
+<h3 id="毕业论文-2023-12-2024-03"><a href="#毕业论文-2023-12-2024-03" class="headerlink" title="毕业论文 2023&#x2F;12-2024&#x2F;03"></a>毕业论文 2023&#x2F;12-2024&#x2F;03</h3><ul>
+<li>Multi-agent分布式人工智能方向(现拟定)</li>
+<li>LLM-agent语言大模型(拓展方向)</li>
+<li>计算机视觉(最初的打算)</li>
+</ul>
+<h3 id="研究兴趣"><a href="#研究兴趣" class="headerlink" title="研究兴趣"></a>研究兴趣</h3><ul>
+<li>自动化与控制(分布式控制理论)</li>
+<li>人工智能+教育(知识图谱相关)</li>
+<li>大模型算法</li>
+<li>搜索推荐算法</li>
+</ul>
+<h3 id="自媒体"><a href="#自媒体" class="headerlink" title="自媒体"></a>自媒体</h3><ul>
+<li>B站游戏区up<br>筹备”大模型+游戏”视频  </li>
+<li>小红书知识区<br>自用学习笔记  </li>
+<li>微博和推特(建设中)</li>
+<li>微信公众号(建设中)</li>
+</ul>
+
       </div>
-    
-      <div class="post-item" title="Markdown入门（菜鸟教程）">
-        <div class="time-m-d">2023-11-26</div>
-        <div class="title">
-          <a href="/2023/11/26/Markdown%E5%85%A5%E9%97%A8%EF%BC%88%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B%EF%BC%89/">
-            
-              
-                <span>Markdown入门（菜鸟教程）</span>
-              
-            
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="Hello World">
-        <div class="time-m-d">2023-11-25</div>
-        <div class="title">
-          <a href="/2023/11/25/hello-world/">
-            
-              
-                <span>Hello World</span>
-              
-            
-          </a>
-        </div>
-      </div>
-    
-  </div>
-  <nav class="post-navigation">
-    
-    <span class="page-num">1 / 1</span>
-    
-  </nav>
-</div>
+    </div>
+  
+
+  
 
         
 <div class="footer">
@@ -424,6 +460,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + tags + '&url=' + https%3A%2F%2Fadachenscience.github.io%2Fabout%2Findex.html + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=https://adachenscience.github.io/about/index.html" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>

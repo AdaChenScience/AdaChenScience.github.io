@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>AdaChenScience</title>
+  <icon>https://adachenscience.github.io/icon.png</icon>
+  <subtitle>Math/CS learner</subtitle>
+  <link href="https://adachenscience.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://adachenscience.github.io/"/>
+  <updated>2023-11-27T03:29:23.332Z</updated>
+  <id>https://adachenscience.github.io/</id>
+  
+  <author>
+    <name>Adachen</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Javascript入门</title>
+    <link href="https://adachenscience.github.io/2023/11/27/Javascript%E5%85%A5%E9%97%A8/"/>
+    <id>https://adachenscience.github.io/2023/11/27/Javascript%E5%85%A5%E9%97%A8/</id>
+    <published>2023-11-27T01:50:15.000Z</published>
+    <updated>2023-11-27T03:29:23.332Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;JavaScript用处&quot;&gt;&lt;a href=&quot;#JavaScript用处&quot; class=&quot;headerlink&quot; title=&quot;JavaScript用处&quot;&gt;&lt;/a&gt;JavaScript用处&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;开发web&amp;#x2F;移动app </summary>
+        
+      
+    
+    
+    
+    <category term="Computer Science" scheme="https://adachenscience.github.io/categories/Computer-Science/"/>
+    
+    
+    <category term="language" scheme="https://adachenscience.github.io/tags/language/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown入门（菜鸟教程）</title>
+    <link href="https://adachenscience.github.io/2023/11/26/Markdown%E5%85%A5%E9%97%A8%EF%BC%88%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B%EF%BC%89/"/>
+    <id>https://adachenscience.github.io/2023/11/26/Markdown%E5%85%A5%E9%97%A8%EF%BC%88%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B%EF%BC%89/</id>
+    <published>2023-11-25T18:34:55.000Z</published>
+    <updated>2023-11-27T03:29:21.953Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一级标题&quot;&gt;&lt;a href=&quot;#一级标题&quot; class=&quot;headerlink&quot; title=&quot;一级标题&quot;&gt;&lt;/a&gt;一级标题&lt;/h1&gt;&lt;h2 id=&quot;二级&quot;&gt;&lt;a href=&quot;#二级&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Computer Science" scheme="https://adachenscience.github.io/categories/Computer-Science/"/>
+    
+    
+    <category term="language" scheme="https://adachenscience.github.io/tags/language/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://adachenscience.github.io/2023/11/25/hello-world/"/>
+    <id>https://adachenscience.github.io/2023/11/25/hello-world/</id>
+    <published>2023-11-25T10:52:56.849Z</published>
+    <updated>2023-11-25T10:50:43.580Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
